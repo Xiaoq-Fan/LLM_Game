@@ -971,7 +971,7 @@ elif args.adap_kl_ctrl == False:
 if args.Rscaling == True:
     config.use_score_scaling=True
     config.use_score_norm=True
-    configscore_clip=0.5
+    configscore_clip=2.0
 
 #if 'MemoryDebug' in OPTION or 'MemoryEfficient' in OPTION:
 config.optimize_cuda_cache=True
